@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.1.3](https://github.com/dev-toolbox/deployment-action/compare/e2f7bab0bf3866c35d6dc3cebef5a0b7fa68f3b8..v0.1.3) - 2026-03-19
+#### Bug Fixes
+- use scratch runtime image for action container - ([043d748](https://github.com/dev-toolbox/deployment-action/commit/043d7488ee6eed2f0074c650d75eea2757da5346)) - Marc Ende
+#### Miscellaneous Chores
+- (**version**) v0.1.2 - ([e2f7bab](https://github.com/dev-toolbox/deployment-action/commit/e2f7bab0bf3866c35d6dc3cebef5a0b7fa68f3b8)) - github-actions[bot]
+
+- - -
+
 ## [v0.1.2](https://github.com/dev-toolbox/deployment-action/compare/8f386e7d054e43de4aab9dfac6ecef0fc886fbb2..v0.1.2) - 2026-03-19
 #### Bug Fixes
 - include action entrypoint in repository - ([8f386e7](https://github.com/dev-toolbox/deployment-action/commit/8f386e7d054e43de4aab9dfac6ecef0fc886fbb2)) - Marc Ende
