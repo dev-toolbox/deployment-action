@@ -1,0 +1,32 @@
+name: Deployment Action
+description: Synchronisiert service-spezifische Deployment-Dateien in das organisationsweite _deployment Repository.
+inputs:
+  token:
+    description: GitHub Token mit Schreibrechten auf das Ziel-Repository.
+    required: true
+  deployment_repository:
+    description: Name des Ziel-Repositories innerhalb derselben GitHub-Organisation.
+    required: false
+    default: _deployment
+  deployment_branch:
+    description: Branch im Ziel-Repository, auf den geschrieben wird.
+    required: false
+    default: main
+  placeholder:
+    description: Platzhalter in Textdateien, der mit Version oder Kurz-Hash ersetzt wird.
+    required: false
+    default: "{{VERSION}}"
+  source_directory:
+    description: Quellverzeichnis im Service-Repository mit Deployment-Artefakten.
+    required: false
+    default: _deployment
+outputs:
+  stage:
+    description: Ziel-Stage im Deployment-Repository, also dev oder prod.
+  version:
+    description: Ermittelter Versionswert ohne führendes v oder der 6-stellige Kurz-Hash.
+  tag:
+    description: Verwendeter Versions-Tag auf main, leer falls keiner verwendet wurde.
+runs:
+  using: docker
+  image: Dockerfile

@@ -1,0 +1,7 @@
+{
+    "go.goroot": "/Users/mende/.local/share/mise/installs/go/1.26.1",
+    "go.alternateTools": {
+        "go": "/Users/mende/.local/share/mise/shims/go",
+        "gopls": "/Users/mende/.local/share/mise/shims/gopls"
+    }
+}
