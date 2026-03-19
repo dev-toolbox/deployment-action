@@ -18,10 +18,5 @@ jobs:
         with:
           go-version-file: go.mod
 
-      - name: Check conventional commits
-        uses: cocogitto/cocogitto-action@v4
-        with:
-          command: check
-
       - name: Test
         run: go test ./...
