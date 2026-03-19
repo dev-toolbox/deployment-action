@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.1.2](https://github.com/dev-toolbox/deployment-action/compare/8f386e7d054e43de4aab9dfac6ecef0fc886fbb2..v0.1.2) - 2026-03-19
+#### Bug Fixes
+- include action entrypoint in repository - ([8f386e7](https://github.com/dev-toolbox/deployment-action/commit/8f386e7d054e43de4aab9dfac6ecef0fc886fbb2)) - Marc Ende
+
+- - -
+
 ## [v0.1.0](https://github.com/dev-toolbox/deployment-action/compare/bb2f5273ecbd66600cd945cf987c27e45efa89ed..v0.1.0) - 2026-03-19
 #### Features
 - implement deployment action with release and container workflows - ([bb2f527](https://github.com/dev-toolbox/deployment-action/commit/bb2f5273ecbd66600cd945cf987c27e45efa89ed)) - Marc Ende
