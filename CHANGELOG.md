@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file. See [conven
 ## [v0.1.0](https://github.com/dev-toolbox/deployment-action/compare/bb2f5273ecbd66600cd945cf987c27e45efa89ed..v0.1.0) - 2026-03-19
 #### Features
 - implement deployment action with release and container workflows - ([bb2f527](https://github.com/dev-toolbox/deployment-action/commit/bb2f5273ecbd66600cd945cf987c27e45efa89ed)) - Marc Ende
+#### Bug Fixes
+- make conventional commit check work before first tag - ([968ccde](https://github.com/dev-toolbox/deployment-action/commit/968ccde6456f6b507fe2e3cccc91f4d499c3eb92)) - Marc Ende
+#### Miscellaneous Chores
+- (**version**) v0.1.0 - ([03e4854](https://github.com/dev-toolbox/deployment-action/commit/03e4854e209757f141ef49acb4172c73ae2adc49)) - github-actions[bot]
+
+- - -
+
+## [v0.1.0](https://github.com/dev-toolbox/deployment-action/compare/bb2f5273ecbd66600cd945cf987c27e45efa89ed..v0.1.0) - 2026-03-19
+#### Features
+- implement deployment action with release and container workflows - ([bb2f527](https://github.com/dev-toolbox/deployment-action/commit/bb2f5273ecbd66600cd945cf987c27e45efa89ed)) - Marc Ende
 
 - - -
 
